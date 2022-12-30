@@ -1,0 +1,139 @@
+#nav1{
+    padding: 20px 0;
+}
+#logo{
+    font-weight: 700 ;
+    color:beige;
+    font-size: 30px;
+    padding-left:13%;
+}
+#item1{
+    color:azure;
+    font-weight:400;
+    font-size:20px;
+    padding-right: 20px;
+}
+
+#item2{
+    color:azure;
+    font-weight:400;
+    font-size:20px;
+    padding-right: 20px;
+}
+#item3{
+    color:azure;
+    font-weight:400;
+    font-size:20px;
+    padding-right:200px;
+}
+#item1:hover, #item2:hover, #item3:hover{
+    text-decoration: none;
+    font-size:21px;
+}
+
+#h1{
+    color: beige;
+    font-size: 70px;
+    margin:100px 50px 0px 200px;
+}
+.head1{
+    width:65%;
+}
+.dog{
+    width:35%;
+}
+.fl{
+    display:flex;
+}
+#iphone{
+    height:80%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+}
+#dark1, #dark2{
+    width:25%;
+    margin:0 5% 10% 0;
+}
+
+.f3{
+    font-weight:500;
+    font-size:large;
+    padding:0 20px;
+    color:rgb(89, 87, 87);
+}
+#sec2{
+    background-color: azure;
+    text-align:center;
+    padding:7% 15%;
+    position:relative;
+    z-index:1;
+}
+.icon{
+    color:#ef8172;
+}
+.icon:hover{
+    color:#ff4c68;   
+}
+.slide{
+    background-color:#ff4c68;
+    text-align:center;
+    
+}
+#sl1{
+    color: white;
+    font-weight: 700;
+    font-size:50px;
+    padding-bottom:5%;
+    padding:7% 15% 3% 15%;
+}
+.h6{
+    color:rgb(103, 103, 103);
+    padding-bottom:5px;
+}
+.foot1{
+    color: white;
+    font-size: 70px;
+    font-weight:700;
+    text-align:center;
+}
+.foot2{
+   width:30px;
+   margin-bottom:20px;
+}
+.foot2:hover{
+    color:black;
+}
+
+@media screen and (max-width:950px) {
+    .rounded-circle{
+        width:150px;
+    }
+    #iphone{
+        position:static;
+        transform:none;
+    }
+    #sec2{
+        position:static;
+    }
+    .logos{
+        width:30%;
+    }
+    .head1{
+        width:100%;
+    }
+    #h1{
+        margin:0 0 70px 0;
+        font-size:50px;
+    }
+    .dog{
+        width:100%;
+    }
+    #iphone{
+        height:500px;
+    }
+    .fl{
+        display:inline-block;
+        text-align: center;
+    }
+}
